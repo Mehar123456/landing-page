@@ -1,0 +1,79 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&family=Roboto+Mono:ital,wght@1,500&display=swap');
+*{
+    box-sizzing:border-box;
+    margin:0;
+    padding:0;
+    background-attachment: fixed;
+    font-family:'poppins',sans-serif;
+}
+.showcase{
+    background-attachment: fixed;
+    position:absolute;
+    right:0;
+    width:100%;
+    min-height:100vh;
+    padding:100px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background: #111;
+    color: #fff;
+    z-index:2;
+}
+body{
+    overflow:auto;
+}
+.text h1{
+    font-size:5em ;
+    font-weight:800;
+    line-height:1em;
+    text-transform: uppercase;
+}
+.text h2{
+    font-size:4em;
+    font-weight:700;
+    line-height:1em;
+    text-transform: uppercase;
+}
+.text h3{
+    font-size: 3em;
+    font-weight:600;
+    line-height:1em;
+    text-transform: uppercase;
+}
+.text p{
+    font-size: 1.1em;
+    margin:10px 0;
+    font-weight: 400;
+    max-width:700px;;
+}
+.showcase video{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    opacity:0.8;
+}
+.overlay{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    background: rgb(128, 53, 0);
+    mix-blend-mode: overlay;
+}
+.text{
+    position:relative;
+    z-index:10;
+}
+.body {
+    height:100vh;
+    margin:0;
+    background-image:radial-gradient(at top left,#629a92 36%,#02d2a0 67%, transparent 67.5%);
+    background-size:120% 100%;
+    background-repeat:no-repeat;
+   }
